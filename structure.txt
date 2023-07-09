@@ -1,0 +1,66 @@
+- app
+    - (auth)
+        - login.tsx
+    - (home)
+        - _layout.tsx
+        - bookmarks.tsx
+        - index.tsx
+        - issued.tsx
+        - profile.tsx
+    - modal
+        - permission.tsx
+        - return.tsx
+        - success.tsx
+    - profile
+        - debug.tsx
+        - name.tsx
+        - support.tsx
+        - team.tsx
+    - _layout.tsx
+    - book.tsx
+    - search.tsx
+- assets
+- src
+    - components
+        - button.component.tsx
+        - card.book.tsx
+        - header.component.tsx
+        - input.component.tsx
+        - latest.home.tsx
+        - modal.component.tsx
+        - search.home.tsx
+        - text.component.tsx
+    - constants
+        - colors.ts
+        - fonts.ts
+        - index.ts
+    - context
+        - AuthProvider.tsx
+        - LogProvider.tsx
+        - Provider.tsx
+        - SocketProvider.tsx
+    - hooks
+        - index.ts
+        - useInput.tsx
+        - useUpload.ts
+    - types
+        - index.d.ts
+        - reducer.d.ts
+        - socket.ts
+    - utils
+        - reducer
+            - auth.reducer.ts
+            - book.reducer.ts
+            - socket.reducer.ts
+        - store.ts
+- .env
+- .gitignore
+- app.json
+- babel.config.js
+- eas.json
+- google-services.json
+- index.ts
+- metro.config.js
+- package-lock.json
+- package.json
+- tsconfig.json

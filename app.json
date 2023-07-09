@@ -1,0 +1,49 @@
+{
+    "expo": {
+        "name": "Lima",
+        "slug": "Lima",
+        "scheme": "lima",
+        "version": "1.5.2",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.inevitableDivu.Lima",
+            "googleServicesFile": "./google-services.json",
+            "versionCode": 7
+        },
+        "plugins": [
+            "@react-native-firebase/app",
+            "@react-native-firebase/auth",
+            [
+                "expo-build-properties",
+                {
+                    "android": {
+                        "targetSdkVersion": 31
+                    }
+                }
+            ],
+            [
+                "expo-image-picker",
+                {
+                    "photosPermission": "The app accesses your photos to let you update your profile picture anytime."
+                }
+            ]
+        ],
+        "extra": {
+            "eas": {
+                "projectId": "f00bd9f5-9231-41c0-a6f2-147d44b558c4"
+            }
+        }
+    }
+}

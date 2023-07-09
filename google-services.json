@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "623621911830",
+    "project_id": "lima-sy",
+    "storage_bucket": "lima-sy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623621911830:android:9bd4b66645756a03434c37",
+        "android_client_info": {
+          "package_name": "com.inevitableDivu.Lima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623621911830-q5663ungk5khe61r1sd4pah7e361hm8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inevitableDivu.Lima",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "623621911830-u3p0ttvplp2a3ff0cruo0i9cquonsmcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqDnOe4nbUBkBHTIQjxC-BcvZWkh44ZhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623621911830-u3p0ttvplp2a3ff0cruo0i9cquonsmcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "623621911830-5efdqnb4ps4u3gsjdgpinsdom29tj4h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inevitableDivu.Lima"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
