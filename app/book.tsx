@@ -114,13 +114,12 @@ export default function BookDetail() {
                         <Text fontFamily="Poppins_700Bold" size={20}>
                             {currentBook?.name ?? "Book name"}
                         </Text>
-                        {currentBook?.dueDate &&
-                        currentBook.borrower === user?.uid ? (
+                        {currentBook?.dueDate ? (
                             <Text>
                                 Due Date:{" "}
                                 <Text fontFamily="Poppins_600SemiBold">
                                     {new Date(
-                                        currentBook.dueDate
+                                        currentBook?.dueDate ?? ""
                                     ).toDateString()}
                                 </Text>
                             </Text>

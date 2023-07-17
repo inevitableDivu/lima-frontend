@@ -33,6 +33,8 @@ export default function Index() {
         socket: { isConnected },
     } = useSelector((state) => state);
 
+    console.log(latestArrival);
+
     const { user, isAuthenticated } = useSelector((state) => state.auth);
     const dispatch = useDispatch();
 
@@ -161,7 +163,7 @@ export default function Index() {
         };
 
         if (user?.uid && isAuthenticated) connectSocket();
-    }, [user]);
+    }, [user?.uid, isAuthenticated]);
 
     return (
         <SafeAreaView

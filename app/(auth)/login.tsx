@@ -162,13 +162,15 @@ export default function Login() {
                                         bottomSheetRef.current?.close();
                                         bottomSheetModalRef.current?.expand();
                                     },
-                                    (error) =>
+                                    (error) => {
                                         error
                                             ? ToastAndroid.show(
                                                   error?.message,
                                                   2000
                                               )
-                                            : null
+                                            : null;
+                                        console.log(error);
+                                    }
                                 )}
                             >
                                 Continue
